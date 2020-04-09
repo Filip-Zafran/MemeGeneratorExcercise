@@ -11,20 +11,25 @@
 
 <body>
 
-    <form>
-        <label for='userText'> Meme Text </label>
-        <input type='text' id='userText' maxlength="70" oninput="updateText()" />
+    <div class='all'>
+        <h2>Create your own Meme</h2>
+        <h3> - with a simple upload from your computer</h3>
         <br>
-        <label for='userPicture'> Upload Picture </label>
-        <!-- added oninput="updateImage() -->
-        <input type='file' id='userText' maxlength="70" oninput="updateImage()" />
-    </form>
+        <form>
+            <label for='userText'> Meme Text </label>
+            <input type='text' id='userText' maxlength="70" oninput="updateText()" />
+            <br>
+            <label for='userPicture'> Upload Picture </label>
+            <!-- added oninput="updateImage() -->
+            <input type='file' id='userText' maxlength="70" oninput="updateImage()" />
+        </form>
 
-    <div id='memeText'> Example Text</div>
-    <div id='memePic'>
-        <img src="" height="500" width="600" />
+        <div id='memeText'> Example Text</div>
+        <div id='memePic'>
+            <img src="" height="500" width="600" />
+        </div>
+
     </div>
-
     <script type="text/javascript" src="main.js"></script>
 
 </body>

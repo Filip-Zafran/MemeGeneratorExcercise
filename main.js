@@ -8,12 +8,12 @@ const updateText = () => {
 const updateImage = () => {
   const img = document.querySelector("img");
   // querySelector  / returns first tag
-  const file = document.querySelector("input type=file").files[0];
+  const file = document.querySelector("input[type=file]").files[0];
 
   // 1) we need to tell to change the picture from before
   // (the backgroud ilite source picture) to a new picure
 
-  img.src = window.URL.createObject;
+  img.src = window.URL.createObject("img");
 };
 
 // ok a few things! i won't give you the solution, but what to look at!
