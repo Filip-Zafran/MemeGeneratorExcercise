@@ -16,7 +16,8 @@
         <input type='text' id='userText' maxlength="70" oninput="updateText()" />
         <br>
         <label for='userPicture'> Upload Picture </label>
-        <input type='file' id='userText' maxlength="70" />
+        <!-- added oninput="updateImage() -->
+        <input type='file' id='userText' maxlength="70" oninput="updateImage()" />
     </form>
 
     <div id='memeText'> Example Text</div>
