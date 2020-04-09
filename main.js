@@ -13,7 +13,7 @@ const updateImage = () => {
   // 1) we need to tell to change the picture from before
   // (the backgroud ilite source picture) to a new picure
 
-  img.src = window.URL.createObject("img");
+  img.src = window.URL.createObjectURL(file);
 };
 
 // ok a few things! i won't give you the solution, but what to look at!

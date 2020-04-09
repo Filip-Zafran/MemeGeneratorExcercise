@@ -5,8 +5,12 @@
     color: pink;
     text-shadow: black 0px 0px 10px;
     position: absolute;
-    left: 15px;
+    left: 30px;
     top: 400px;
+    display: flex;
+    flex-direction: row;
+    width: 580px;
+
 }
 
 
